@@ -1,0 +1,19 @@
+.odds{
+    background-color: lightpink;
+    font-family: Verdana,DejaVu Sans,sans-serif;
+}
+
+#numba2{
+    color: lightblue;
+    font-size: 36px;
+}
+
+#numba4{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}  
+
+#numba3{
+    font-size: 24px;
+}
