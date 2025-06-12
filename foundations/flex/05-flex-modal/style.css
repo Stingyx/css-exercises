@@ -20,6 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* Answers */
+  padding: 15px;
 }
 
 .icon {
@@ -60,10 +62,50 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin: 5px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.text{
+  text-align: justify;
+  width: auto;
+  height: auto;
+}
+
+.header{
+  font-size: larger;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+  /* align-items: center;
+  justify-content: center; */
+}
+
+
+.container-d{
+  display: flex;
+  flex-direction: column;
+  padding:1px 50px;
+  text-align: justify;
+}
+
+.button-container{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.container-f{
+  display: flex;
 }
